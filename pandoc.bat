@@ -4,4 +4,4 @@ wget %PADOCDownload%
 unzip pandoc-3.6.4-windows-x86_64.zip
 del pandoc-3.6.4-windows-x86_64.zip
 
-pathed /ADD ./ /USER
+pathed /ADD %~dp0\pandoc-3.6.4\ /USER
